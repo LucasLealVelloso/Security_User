@@ -1,0 +1,8 @@
+services:
+  lucasleal_postgresql1:
+      image: postgres
+      environment:
+        POSTGRES_USER: lucasleal
+        POSTGRES_PASSWORD: 654321
+      ports:
+        - 5432:5432
